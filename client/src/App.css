@@ -1,0 +1,13 @@
+body {
+	box-sizing: border-box;
+	background-image: url('./img/space-bg.jpeg');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+
+.App{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

@@ -1,0 +1,40 @@
+.border{	
+width: 70vh;
+height: 80vh;
+border-radius: 20px;
+border: 5px solid rgba(255, 59, 59, 0.61);
+margin-top: 20px;
+background-color: rgba(245, 245, 245, 0.164);
+box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	padding-top: 27%;
+}
+.star {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: url('../../img/star.svg');
+	animation: star 4s ease-in-out 1s infinite running forwards;
+}
+
+@keyframes star {
+  0% {
+    margin-top: 0%;
+		margin-left: 0%;
+  }
+	20%{
+		margin-top: 20%;
+		margin-left: 10%;
+	}
+	50% {
+    margin-top: 50%;
+		margin-left: 15%;
+  }
+  100% {
+    margin-top: 100%;
+		margin-left: 0%;
+  }
+}
